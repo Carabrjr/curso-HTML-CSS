@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: blueviolet;
+            height: 300px;
+            width: 300px;
+            border-width:10px;/*largura da borda*/
+            border-style: solid;/*tipo de border*/
+            border-color: black;/*cor da borda*/
+            
+            /*é como uma margem porem na parte interna da borda*/
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+           
+
+            /*auto deixa a caixa nomeio*/
+            /*margin: auto;*/
+
+            /*abaixo é como colocar a margem como queira*/
+            margin-top:20px;
+            margin-right:20px;
+            margin-bottom:40px;
+            margin-left:20px;
+
+            /*é uma marcação dentro da margem */
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: aqua;
+        }
+        a{
+            display: block;/*muda a caracteristica de inline para block é o inverso tambem é verdade*/
+
+            /*formas de simplificar*/
+            border: solid 10px black;
+            /*quando todas as propriedades são iguais só precisa indicar uma vez
+            ou dois valores para aqueles diretamente a frente*/
+            padding: 10px 15px;
+
+            margin: 20px 20px 40px 20px;
+            outline: 5px dashed blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de caixa box level</h1>
+    <p>paragrafos tambem é box level, mas os 
+    <a href="#">mas os links são exemplosd inline-level</a>
+    vamos ver como tudo isso funciona</p>
+    
+</body>
+</html>

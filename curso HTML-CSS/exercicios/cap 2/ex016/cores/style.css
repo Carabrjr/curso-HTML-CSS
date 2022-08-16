@@ -1,0 +1,7 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to top,rgb(44, 44, 219)
+    ,rgb(255, 72, 0)30%,rgb(207, 226, 35));/*na aréa que etar escrito 'bottom' é a direção do degrade*//*a area que está 20% é a quantidade que a cor vai ocupar*/
+
+    background-attachment: fixed;/*é necessario colocar essa linha para o degrade ir até o fim*/
+}

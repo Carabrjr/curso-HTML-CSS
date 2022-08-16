@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*
+em HTML é id     = em CSS é #
+em HTML é classe = em CSS é .
+*/
+body{
+    background-color: rgb(90, 218, 111);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(7, 80, 11);
+}
+h1#principal{/*serve para identificar o id do que vc quer marcar*/
+    text-align: center;
+    background-color: beige;
+}
+h2{
+    color: rgb(7, 80, 11);;
+}
+.basico{/*identifica as classes*/
+    color: rgb(118, 14, 216);
+    font-weight: bold;
+}
+.intermediario{
+    color: brown;
+
+}
+.avançado{
+    color: rgb(15, 15, 236);
+
+}
+.destaque{
+    color: rgb(243, 10, 212);
+    background-color: aquamarine;
+}

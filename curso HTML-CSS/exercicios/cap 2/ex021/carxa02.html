@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(46, 45, 43);
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(168, 167, 167);
+            padding: 3px;
+            box-shadow: 1px 14px 20px 0px rgba(0, 0, 0, 0.651);/*sombreamento das caixas*/
+        }
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav>a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;/*raio da borda, cerve para arredontar a borda*/
+        }
+        #assuntos{
+            background-color:  rgb(186, 187, 186);
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        article{
+            background-color: rgb(186, 187, 186);
+           
+            /*modo simplificado de configurar as 4 bordas separadamente*/
+            border-radius: 5px 5px 5px 5px;
+            box-shadow:  5px 5px 5px 5px rgba(0, 0, 0, 0.575);
+
+        }
+        article>aside{
+            background-color:  rgb(132, 138, 134);;
+            padding: 5px;
+            border-radius: 3px 3px 3px 3px;
+            box-shadow:  5px 5px 5px 5px rgba(0, 0, 0, 0.575);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header><!--cabeçario-->
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main><!--meio do site-->
+        <section id="assuntos">
+            <p>esportes, politicas e tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article >
+                <h1>noticias do Brasil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto culpa fugiat facere esse tempora deserunt recusandae alias quis, accusantium doloribus quia sapiente numquam, quaerat nulla beatae voluptatum commodi cumque. Ea!</p>
+                <aside>
+                    <p>artigo escrito por josé da silva</p>
+                </aside>
+
+            </article>
+            <article>
+                
+            </article>
+
+        </section>
+
+    </main>
+    <footer><!--rodapé-->
+        <p>curso em video</p>
+
+    </footer>
+</body>
+</html>
